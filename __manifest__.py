@@ -1,13 +1,12 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 {
-    'name': "/odoo/custom/test_module",
+    'name': "Test Module",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Primo modulo di test""",
 
     'description': """
-        Long description of module's purpose
+        Descrizione del modulo di test
     """,
 
     'author': "My Company",
@@ -27,6 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'test_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
